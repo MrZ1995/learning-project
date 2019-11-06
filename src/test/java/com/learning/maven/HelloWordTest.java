@@ -6,10 +6,11 @@ import org.junit.Test;
  * @author zouqi
  * @date 2019/11/6
  */
-public class HelloTest {
+public class HelloWordTest {
+    private HelloWorld helloWorld = new HelloWorld();
+
     @Test
     public void say(){
-        HelloWorld helloWorld = new HelloWorld();
         helloWorld.say();
     }
 }
