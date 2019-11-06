@@ -1,13 +1,10 @@
-package com.leraning.maven;
-
-import org.junit.Test;
+package com.learning.maven;
 
 /**
  * @author zouqi
  * @date 2019/11/6
  */
-public class HelloTest {
-    @Test
+public class HelloWorld {
     public void say(){
         System.out.println("say hello~");
     }
