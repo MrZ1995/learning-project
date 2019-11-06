@@ -6,6 +6,6 @@ package com.learning.maven;
  */
 public class HelloWorld {
     public void say(){
-        System.out.println("say hello~");
+        System.out.println("say hello world(second year)~");
     }
 }
