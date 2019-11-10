@@ -33,7 +33,7 @@ class Person {
 }
  public class Test {
 	 public static void main(String args[]) {
-		 Person per=new Person("张三1q" ,-18);
+		 Person per=new Person("张三1" ,-18);
 		// per.setName("张三");
 		// per.setAge(-18);
 				 per.tell();
