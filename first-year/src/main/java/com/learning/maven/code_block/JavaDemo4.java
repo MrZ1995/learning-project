@@ -4,7 +4,21 @@ class Message{
         return "www.mldn.cn";
     }
 }
-clss
-public class JavaDemo4 {
+class Person {
+    private static String country;
+
+    static {
+        country = Message.getCountry();
+        System.out.println(country);
+    }
 
 }
+
+public class JavaDemo4 {
+    public static void main(String args[]) {
+        new Person();
+    }
+
+    }
+
+
